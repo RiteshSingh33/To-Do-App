@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=New+Tegomin&display=swap');
+body{
+    background-color: #eee;
+}
+h1,h2{
+    font-family: "New Tegomin";
+}
+.form{
+    font-family: "Baloo Bhai 2";
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c1{
+    display: flex;
+    flex-direction: column;
+}
+
+.grey{
+    background: linear-gradient(rgba(169, 157, 157, 0.258), rgba(254, 251, 251, 0.522));
+    font-weight: 700;
+}
+
+.hov:hover{
+    background: linear-gradient(rgba(169, 157, 157, 0.258), rgba(254, 251, 251, 0.522));
+}
+
+
+.rounded-border{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.5rem;
+}
+
+.p-1{
+    padding: 5px 10px 5px 10px;
+    margin-right: 0.5rem;
+}
